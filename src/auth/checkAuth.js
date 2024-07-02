@@ -49,14 +49,8 @@ const permission = ( permission ) =>{
   }
 }
 
-const asyncHandle = fn => {
-  return (req, res, next) => {
-    fn(req, res, next).catch(next)
-  }
-}
 
 module.exports = {
   apiKey,
-  permission,
-  asyncHandle
+  permission
 }

@@ -1,3 +1,4 @@
 /node_modules
 /.env
 /src/postman
+/src/postman/access.post.http
